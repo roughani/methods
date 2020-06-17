@@ -28,18 +28,18 @@
   }
 }
 
-.category--discover  { background-color: $color-blue; }
-.category--make { background-color: $color-gold; }
-.category--validate { background-color: $color-red; }
-.category--decide { background-color: $color-green; }
+.category--small-business-recovery-and-assistance  { background-color: $color-blue; }
+.category--homeless-and-rapid-rehousing { background-color: $color-gold; }
+.category--arts-creative-economy-and-tourism { background-color: $color-red; }
+.category--youth-and-workforce-training { background-color: $color-green; }
 
-.category--discover--title { border-color: $color-blue; }
-.category--make--title { border-color: $color-gold; }
-.category--validate--title { border-color: $color-red; }
-.category--decide--title { border-color: $color-green; }
+.category--small-business-recovery-and-assistance--title { border-color: $color-blue; }
+.category--homeless-and-rapid-rehousing--title { border-color: $color-gold; }
+.category--arts-creative-economy-and-tourism--title { border-color: $color-red; }
+.category--youth-and-workforce-training--title { border-color: $color-green; }
 
 
-.category--fundamentals,
+.category--family-services,
 .intro-header {
   background-color: $color-blue-dark;
   .category--header .category--subtitle,
@@ -74,35 +74,35 @@
       padding-left: 2.35765%;
     }
   }
-  .category--discover {
+  .category--small-business-recovery-and-assistance {
       .usa-width-two-thirds
       { border-color: $color-blue; }
       .usa-width-one-third {
         border-color: lighten( $color-blue, 25% )
       }
     }
-  .category--make {
+  .category--homeless-and-rapid-rehousing {
     .usa-width-two-thirds
     { border-color: $color-gold; }
     .usa-width-one-third {
       border-color: lighten( $color-gold, 25% )
     }
   }
-  .category--validate {
+  .category--arts-creative-economy-and-tourism {
     .usa-width-two-thirds
     { border-color: $color-red; }
     .usa-width-one-third {
       border-color: lighten( $color-red, 25% )
     }
   }
-  .category--decide {
+  .category--youth-and-workforce-training {
     .usa-width-two-thirds
     { border-color: $color-green; }
     .usa-width-one-third {
       border-color: lighten( $color-green, 25% )
     }
   }
-  .category--fundamentals {
+  .category--family-services {
     .usa-width-two-thirds
     { border-color: $color-blue-dark; }
     .usa-width-one-third {

@@ -3,9 +3,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %} - 18F Methods </title>
-  <link rel="icon" type="image/png" href="{{ site.baseurl }}/images/favicons/favicon-32x32.png" sizes="32x32" />
-  <link rel="icon" type="image/png" href="{{ site.baseurl }}/images/favicons/favicon-16x16.png" sizes="16x16" />
+  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %} - COVID-19 Investments </title>
+  <link rel="icon" type="image/jpg" href="{{site.baseurl}}/images/city_square.jpg" sizes="32x32" />
+  <link rel="icon" type="image/jpg" href="{{site.baseurl}}/images/city_square.jpg" />
 
   <meta name="description" content="{% if page.description %}{{ page.description | truncate: 155 }}{% else %}{{ site.description }}{% endif %}">
 
@@ -32,19 +32,19 @@
 
   {% if page.layout == "page" %}
     <style>
-      @page { 
-        size: portrait; 
+      @page {
+        size: portrait;
         margin: 1in;
       }
     </style>
   {% else %}
     <style>
-      @page { 
-        size: landscape; 
+      @page {
+        size: landscape;
         margin: 0;
         padding: 1px;
       }
-    </style>  
+    </style>
   {% endif %}
 
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">

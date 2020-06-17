@@ -1,58 +1,56 @@
-- category_name: Discover
-  category_description: Build a greater understanding of your problem and the people it impacts.
-  category_info: Use the Discover Methods to build context for the problem you’re investigating. Get to know your potential users better and understand your stakeholders’ main concerns. The work you do during this phase will inform everything that follows, so take your time.
+- category_name: Small Business Recovery and Assistance
+  category_description: null
+  category_amount: $12.6 million
+  category_info: Financial, technical, and entrepreneurship assistance to small businesses, non-profits, and community-based organizations (CBOs).
   methods:
-    - Cognitive walkthrough
-    - Contextual inquiry
-    - Design studio
-    - Dot voting
-    - Five whys
-    - Heuristic evaluation
-    - Hopes and fears
-    - KJ method
-    - Lean coffee
-    - Stakeholder and user interviews
+    - Economic Relief to Small Business
+    - Farm to Fork Al Fresco Dining Support
+    - Central Labor Council Hotline
+    - Rental Mediation
+    - Great Plates Delivered
+    - Council Community Impact Funding
 
-- category_name: Decide
-  category_description: Elaborate on research from your Discovery phase.
-  category_info: The Decide Methods help you derive insights from the information gathered during the Discovery phase. You’ll validate initial assumptions, develop a deeper understanding of workflows and processes, and develop design hypotheses.
+- category_name: Youth and Workforce Training
+  category_description: null
+  category_amount: $7.25 million
+  category_info: Partner with workforce development providers, CBOs, and educational partners at all levels to retrain and uptrain workers dislocated due to the pandemic.
   methods:
-    - Affinity mapping
-    - Comparative analysis
-    - Content audit
-    - Design hypothesis
-    - Design principles
-    - Interface audit
-    - Journey mapping
-    - Mental modeling
-    - Personas
-    - Site mapping
-    - Storyboarding
-    - Style tiles
-    - Task flow analysis
-    - User scenarios
+    - Digital Divide
+    - Financial Literacy
+    - Youth Enrichment
+    - Youth Mental Health*
+    - Youth Job Training and Development*
+    - Youth PopUps*
+    - Council Community Impact Funding
 
-- category_name: Make
-  category_description: Create a testable solution.
-  category_info: Once you’ve learned more about your users’ expectations, use the Make Methods to create testable designs. Sketching, wireframing, and prototyping will help you ensure your product reflects your users’ needs.
+- category_name: Homeless and Rapid Rehousing
+  category_description: null
+  category_amount: $5.07 million
+  category_info: Services to place unhoused individuals into permanent housing and implement homeless aversion programs.
   methods:
-    - Design pattern library
-    - Prototyping
-    - Wireframing
+    - Homelessness Response Plan*
+    - Rental Mediation
+    - Meth Detox/St Johns/City of Refuge
+    - Emergency Homeless Encampment Cleanup
+    - Council Community Impact Funding
 
-- category_name: Validate
-  category_description: Test a design hypothesis.
-  category_info: Testing (and re-testing) your designs with users will help you build the best possible product. Our Validate Methods cover varied testing scenarios and potential user groups.
+- category_name: Arts, Creative Economy and Tourism
+  category_description: null
+  category_amount: $5 million
+  category_info: Financial and technical assistance directly to support the arts, tourism, and creative economy that have been devastated by the current pandemic.
   methods:
-    - Card sorting
-    - Multivariate testing
-    - Usability testing
-    - Visual preference testing
+    - Creative Economy
+    - Zoo/Fairytale Town Support
+    - Council Community Impact Funding
 
-- category_name: Fundamentals
-  category_description: Foundational methods for practicing design research.
-  category_info: Our Fundamentals Methods, which combine government-specific protocols and industry best practices, lay the groundwork for successful research, no matter what you’re testing. For best results, review them before you start recruiting.
+- category_name: Family Services
+  category_description: null
+  category_amount: $3.25 million
+  category_info: Funding to support additional services for Sacramento families, including the expansion and availability of childcare services, food access, and programs that address domestic violence exacerbated by the stay-at-home orders.
   methods:
-  - Incentives
-  - Privacy
-  - Recruiting
+  - Community Outreach
+  - Domestic Violence Intervention
+  - Family Mental Health Initiatives
+  - Food Insecurity
+  - Housing for Essential Staff
+  - Council Community Impact Funding

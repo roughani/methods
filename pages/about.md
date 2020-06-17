@@ -6,23 +6,33 @@ permalink: /about/
 
 # About
 
-The 18F Methods are a collection of tools that describe how our teams put human-centered design into practice. We’ve gathered them here and created simplified instructions to help other organizations and federal offices adopt human-centered design into their own projects. These cards are focused on design in the context of digital services, but can be adapted to non-technical design projects as well.
+On March 13, 2020, the City declared a local emergency in response to the spread of the COVID-19 pandemic. Several actions were taken by the City to provide immediate economic relief to city businesses and residents, including the funding of small business loans of $1.1 million to City businesses, procurement of emergency supplies for the homeless (estimated at $250,000), emergency meal programs, and lodging for essential City staff.
 
-## The basics of human-centered design
-Human-centered design, also referred to as "user-centered design," is a methodology that incorporates feedback from the people for whom you are designing throughout the design process. The goal of human-centered design is to end up with a solution that is tailored to meet people's needs, with little wasted effort and reduced risk. To achieve this goal, design teams at 18F talk with and observe real users to understand their needs, context, and challenges, come up with design concepts that might address these challenges, and then test them with real users. Find more resources on human-centered design in government at [digital.gov](https://digital.gov/topics/design/), including this overview of [the basics of human-centered design in government](https://www.youtube.com/watch?v=DGDCd2ELpok) from the Lab@OPM. 
+Given the significant needs and quick response necessary during an emergency, the annual budget resolution provides authority to the City Manager to accept and spend grant funding in advance of Council authority (Resolution 2019-0248, Section 11.1(2); Resolution 2020-0123, Section 11.1(B)). This authority requires the City Manager to report back to Council within 60 days of receiving formal program documents or funding. The following summarizes the awards and funding received to date to assist with our response to the pandemic.
 
-## Using the 18F Methods
-The 18F Methods are broken up into the four broad design phases your team is likely to go through during a project. While some cards refer to other methods, you may use them independently. You do not need to use all the cards in a section or complete certain tasks before moving on to others. Take whatever cards are most useful to your team and incorporate more tools as you’re ready.
+- On April 21, 2020, the City received $89.6 million in Coronavirus Relief Funds (CRF) from passage of the federal government’s CARES Act.
+- On April 17, 2020, the City received $0.3 million from the federal government’s CARES Act fund specific to the Fire Department’s delivery of emergency medical services (EMS), including labor associated with Mobile Integrated Health and the COVID Task Force.
+- The Police Department received notification of the U.S. Department of Justice Office of Justice Programs Bureau of Justice Assistance Coronavirus Emergency Supplemental Funding Program Solicitation and will be applying for $795,286 by May 29, 2020.
 
-We’ve included additional guidance for using these methods in government research, specifically around the [Paperwork Reduction Act (PRA)](https://www.opm.gov/about-us/open-government/digital-government-strategy/fitara/paperwork-reduction-act-guide.pdf). We’re only able to include brief guidance on the PRA, and federal workers should check with their agency counsel for additional guidance. You should also read the cards in the fundamentals section for more background on conducting design research as a government employee.
+## Framework and Funding Priorities:
 
-## Go behind the scenes
-As with all of 18F’s products, the 18F Methods are completely open source. You are free to copy, share, or reuse them [as you wish](https://github.com/18F/methods/blob/staging/LICENSE.md). We also welcome input from the public or our government colleagues, whether it’s correcting a typo or suggesting a new method to include. You can see our [guidelines for contributing on GitHub](https://github.com/18F/methods/blob/staging/CONTRIBUTING.md). Please don't hesitate to reach out to the team at [18f-methods@gsa.gov](mailto:18f-methods@gsa.gov) with questions, comments, or suggestions. 
+On May 12, 2020, Council participated in a workshop to discuss a CRF framework and funding priorities. During the workshop, Council expressed overall interest in funding programs and projects that provide small business assistance, get people back to work, offer opportunities for youth enrichment, address homelessness and housing issues, and support families impacted by this pandemic. The deadline for expending CRF funds is December 30, 2020. Given this short time frame, Council requested staff identify projects and programs for immediate CRF funding and implementation.
 
-## Release notes
+On May 26, 2020 Council committed $28 million in CRF to support immediate local economic relief services and programs for residents and businesses. As we continue to prepare CARES Act funding recommendations, staff will review funding suggestions for eligibility and alignment with identified Council priority areas:
+
+- **Small Business Assistance:** Financial, technical, and entrepreneurship assistance to small businesses, non-profits, and community-based organizations (CBOs).
+- **Workforce Training:** Fund programs and partner with workforce development providers, CBOs, and educational partners at all levels to retrain and uptrain workers dislocated due to the pandemic. 
+- **Youth Enrichment:** Implement robust programs, curriculum, and service for youth, including providing the necessary transportation and technology to support these programs.
+- **Family Services:** Funding to support additional services for Sacramento families, including the expansion and availability of childcare services, food access, and programs that address domestic violence exacerbated by the stay-at-home orders.
+- **Homeless Services & Rapid Re-Housing:** Services to place unhoused individuals into permanent housing and implement homeless aversion programs.
+- **Arts, The Creative Economy & Tourism:** Financial and technical assistance directly to support the arts, tourism, and creative economy that have been devastated by the current pandemic.
+
+To ensure the entire community has an opportunity to weigh in, the City Auditor is conducting community surveys for both residents and businesses to provide insight and suggestions for CRF spending. Additionally, Council expressed a commitment to equity and inclusion. Each program and project will be screened through an equity lens to ensure CARES spending benefits our entire community, particularly those communities most impacted.
+
+<!-- ## Release notes
 
 {% for release in site.data.releases %}
 ### {{ release.name }}
 <p class="site-subheading">{{ release.published_at | date: "%B %d, %Y" }}</p>
 {{ release.body | markdownify }}
-{% endfor %}
+{% endfor %} -->
