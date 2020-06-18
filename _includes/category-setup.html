@@ -6,5 +6,15 @@
 {% assign category_methods     = (site.methods | where: "category", page.title ) %}
 {% assign all_methods          = (site.methods) %}
 
+{% assign small-business-recovery-and-assistance_methods     = (site.methods | where: "category", "Small Business Recovery and Assistance" ) %}
+
+{% assign youth-and-workforce-training_methods     = (site.methods | where: "category", "Youth and Workforce Training" ) %}
+
+{% assign homeless-and-rapid-rehousing_methods     = (site.methods | where: "category", "Homeless and Rapid Rehousing" ) %}
+
+{% assign arts-creative-economy-and-tourism_methods     = (site.methods | where: "category", "Arts, Creative Economy and Tourism" ) %}
+
+{% assign family-services_methods     = (site.methods | where: "category", "Family Services" ) %}
+
 <! -- This is used for setting category variables -->
 {% capture var-category-name %}{{ page.category | downcase }}_methods{% endcapture %}

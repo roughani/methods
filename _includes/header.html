@@ -21,7 +21,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <button class="usa-menu-btn">Menu</button>
   <div class="usa-logo" id="logo">
     <em class="usa-logo-text">
-      <a href="{{site.baseurl}}/" accesskey="1" title="Home" aria-label="Home">  <img src="{{site.baseurl}}/images/city_square.jpg" width="72"> COVID-19 Recovery Investments</a>
+      <a href="{{site.baseurl}}/" accesskey="1" title="Home" aria-label="Home">  <img src="{{site.baseurl}}/images/city_square.jpg" width="72"> Recovery Demo</a>
     </em>
   </div>
 </div>
@@ -38,62 +38,62 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <li>
             <button class="
             usa-accordion-button usa-nav-link" aria-expanded="false" aria-controls="side-nav-1">
-              <span>Discover</span>
+              <span>Businesses</span>
             </button>
             <ul id="side-nav-1" class="usa-nav-submenu" aria-hidden="true">
-              {% assign discovermethods = discover_methods | sort:"title"  %}
-              {% for method in discovermethods %}
+              {% assign businessmethods = small-business-recovery-and-assistance_methods | sort:"title"  %}
+              {% for method in businessmethods %}
                 <li><a href="{{ site.baseurl }}{{ method.url }}">{{ method.title }}</a></li>
               {% endfor %}
-              <li><a href="{{site.baseurl}}/discover">See all Discover cards</a></li>
+              <li><a href="{{site.baseurl}}/small-business-recovery-and-assistance">See all Business resources</a></li>
             </ul>
           </li>
           <li>
             <button class="usa-accordion-button usa-nav-link" aria-expanded="false" aria-controls="sidenav-2">
-              <span>Decide</span>
+              <span>Youth and Workers</span>
             </button>
             <ul id="sidenav-2" class="usa-nav-submenu" aria-hidden="true">
-              {% assign decidemethods = decide_methods | sort:"title"  %}
-              {% for method in decidemethods %}
+              {% assign youth-workforcemethods = youth-and-workforce-training_methods | sort:"title"  %}
+              {% for method in youth-workforcemethods %}
                 <li><a href="{{ site.baseurl }}{{ method.url }}">{{ method.title }}</a></li>
               {% endfor %}
-                <li><a href="{{site.baseurl}}/decide">See all Decide cards</a></li>
+                <li><a href="{{site.baseurl}}/youth-and-workforce-training">See all Youth and Worker resources</a></li>
             </ul>
           </li>
           <li>
             <button class="usa-accordion-button usa-nav-link" aria-expanded="false" aria-controls="sidenav-3">
-              <span>Make</span>
+              <span>Homeless</span>
             </button>
             <ul id="sidenav-3" class="usa-nav-submenu" aria-hidden="true">
-              {% assign makemethods = make_methods | sort:"title"  %}
-              {% for method in makemethods %}
+              {% assign homelessmethods = homeless-and-rapid-rehousing_methods | sort:"title"  %}
+              {% for method in homelessmethods %}
                 <li><a href="{{ site.baseurl }}{{ method.url }}">{{ method.title }}</a></li>
               {% endfor %}
-                <li><a href="{{site.baseurl}}/make">See all Make cards</a></li>
+                <li><a href="{{site.baseurl}}/homeless-and-rapid-rehousing">See all Homeless resources</a></li>
             </ul>
           </li>
           <li>
             <button class="usa-accordion-button usa-nav-link" aria-expanded="false" aria-controls="sidenav-4">
-              <span>Validate</span>
+              <span>Creatives</span>
             </button>
             <ul id="sidenav-4" class="usa-nav-submenu" aria-hidden="true">
-              {% assign validatemethods = validate_methods | sort:"title"  %}
-              {% for method in validatemethods %}
+              {% assign creativemethods = arts-creative-economy-and-tourism_methods | sort:"title"  %}
+              {% for method in creativemethods %}
                 <li><a href="{{ site.baseurl }}{{ method.url }}">{{ method.title }}</a></li>
               {% endfor %}
-                <li><a href="{{site.baseurl}}/validate">See all Validate cards</a></li>
+                <li><a href="{{site.baseurl}}/arts-creative-economy-and-tourism">See all Arts and Tourism resources</a></li>
             </ul>
           </li>
           <li>
             <button class="usa-accordion-button usa-nav-link" aria-expanded="false" aria-controls="sidenav-5">
-              <span>Fundamentals</span>
+              <span>Families</span>
             </button>
             <ul id="sidenav-5" class="usa-nav-submenu" aria-hidden="true">
-              {% assign fundamentalsmethods = fundamentals_methods | sort:"title"  %}
-              {% for method in fundamentalsmethods %}
+              {% assign familymethods = family-services_methods | sort:"title"  %}
+              {% for method in familymethods %}
                 <li><a href="{{ site.baseurl }}{{ method.url }}">{{ method.title }}</a></li>
               {% endfor %}
-                <li><a href="{{site.baseurl}}/fundamentals">See all Fundamentals cards</a></li>
+                <li><a href="{{site.baseurl}}/family-services">See all Family resources</a></li>
             </ul>
           </li>
           <li>

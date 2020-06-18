@@ -1,0 +1,42 @@
+---
+layout: card
+title: Economic Relief to Small Business
+permalink: /small-business-recovery-and-assistance/economic-relief-to-small-business/
+redirect_from:
+  - /economic-relief-to-small-business/
+description: [Description here — this is the one-line "What"]
+category: Small Business Recovery and Assistance
+what: [Description here — this is the one-line "What"]
+why: [Description here - this is a short "Why"]
+timeRequired: [Estimated time — can be a range]
+governmentConsiderations:
+
+---
+
+## How to get assistance
+
+1. [Ordered list items here]
+
+<section class="method--section method--section--18f-example" markdown="1" >
+
+<!-- ## Example from 18F  
+
+[Example here — Delete this section if no example from 18F]
+
+</section>
+
+<section class="method--section method--section--additional-resources" markdown="1" > -->
+
+## Amount Invested
+
+- [Unordered list with additional resources linking out — Delete this section if no additional resources from 18F]
+
+</section>
+
+<section class="method--section method--section--government-considerations" markdown="1" >
+
+## City Partners
+
+[Add considerations as appropriate. Standard language is: No PRA implications. No information is collected from members of the public.]
+
+</section>
