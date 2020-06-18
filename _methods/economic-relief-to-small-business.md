@@ -6,37 +6,28 @@ redirect_from:
   - /economic-relief-to-small-business/
 description: [Description here — this is the one-line "What"]
 category: Small Business Recovery and Assistance
-what: [Description here — this is the one-line "What"]
-why: [Description here - this is a short "Why"]
-timeRequired: [Estimated time — can be a range]
+what: Describe the problem
+why: Describe the program as a solution to the problem
+status: Approved
+funding: $10 million
+timeRequired:
 governmentConsiderations:
 
 ---
 
-## How to get assistance
+## Who is Eligible for Assistance
 
-1. [Ordered list items here]
+- Eligibility criterion 1
+- Eligibility criterion 2
+- Eligibility criterion 3
 
-<section class="method--section method--section--18f-example" markdown="1" >
 
-<!-- ## Example from 18F  
+## How to Recieve Assistance
 
-[Example here — Delete this section if no example from 18F]
+1. Step 1
+2. Step 2
+3. Step 3
 
-</section>
+## Learn More
 
-<section class="method--section method--section--additional-resources" markdown="1" > -->
-
-## Amount Invested
-
-- [Unordered list with additional resources linking out — Delete this section if no additional resources from 18F]
-
-</section>
-
-<section class="method--section method--section--government-considerations" markdown="1" >
-
-## City Partners
-
-[Add considerations as appropriate. Standard language is: No PRA implications. No information is collected from members of the public.]
-
-</section>
+Visit [cityofsacramento.org/bizloans](https://www.cityofsacramento.org/bizloans) for more information
